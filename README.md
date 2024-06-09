@@ -26,7 +26,7 @@ Este projeto é uma aplicação de chat em tempo real construída usando Node.js
 1. Clone o repositório:
     ```sh
     git clone https://github.com/JoseQuembi/ia-assistente.git
-    cd chat-application
+    cd ia-assistent
     ```
 
 2. Instale as dependências:
