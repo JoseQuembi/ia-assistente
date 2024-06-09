@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.piano {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.key {
+    width: 60px;
+    height: 300px;
+    border: 1px solid #000;
+    display: inline-block;
+    margin: 0 2px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 300px;
+    font-size: 20px;
+    transition: transform 0.1s, box-shadow 0.1s;
+}
+
+.key.white {
+    background-color: white;
+}
+
+.key.black {
+    background-color: black;
+    color: white;
+    position: absolute;
+    width: 40px;
+    height: 180px;
+    margin-left: -20px;
+    z-index: 1;
+    line-height: 180px;
+    transform: translateY(-120px);
+}
+
+.key.active {
+    transform: scale(0.95);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.key.white.active {
+    background-color: #d3d3d3;
+}
+
+.key.black.active {
+    background-color: #333;
+}
+
+.key:before {
+    content: '';
+    display: block;
+    height: 100%;
+}
+
+.piano .key:nth-child(7n + 2),
+.piano .key:nth-child(7n + 4),
+.piano .key:nth-child(7n + 6),
+.piano .key:nth-child(7n + 9),
+.piano .key:nth-child(7n + 11) {
+    margin-right: 10px;
+}

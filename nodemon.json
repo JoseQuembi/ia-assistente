@@ -1,0 +1,7 @@
+{
+    "watch": ["src", "public"],
+    "ext": "js,json,ejs,css",
+    "ignore": ["public/css/style.css"],
+    "exec": "npm run build:css && node src/app.js"
+  }
+  
