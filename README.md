@@ -1,9 +1,6 @@
 # Chat Application
 
 [Nexa Code](public/img/Nexa.svg)
-```
-
-Espero que isso ajude! 😊
 
 ## Descrição
 
