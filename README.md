@@ -1,5 +1,10 @@
 # Chat Application
 
+[Nexa Code](public/img/Nexa.svg)
+```
+
+Espero que isso ajude! 😊
+
 ## Descrição
 
 Este projeto é uma aplicação de chat em tempo real construída usando Node.js, Express, Sequelize e EJS. Ele permite que os usuários criem e participem de conversas, enviem e recebam mensagens, tudo gerenciado através de uma interface web simples.
